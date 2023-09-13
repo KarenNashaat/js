@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    </head>
+
+  <h1>
+    hello , how are you ?
+  </h1>
+  <script>
+    let text="hello";
+    let text_2="world";
+
+    /*this method returns the specific index*/ 
+    text.charAt(1);
+    /*e*/
+
+    /*??*/
+    text.charCodeAt(2);
+
+    /*??*/
+    text.codePointAt(1);
+
+    /*this method joins 2 strings and return the new string */
+    text.concat(" " ,text_2);
+    /*hello world*/
+
+    /* method returns true (false) depending on th specified string*/
+    text_2.endsWith(hello);
+    /*false*/
+    
+    /* this method checks if the string includes the right string or not*/
+    text.includes(hello);
+    /*true*/
+    
+    /* this method returns the position of the requiried string*/
+    text.indexOf("l" , 3);
+    /* 3 */
+
+    /* returns -1 if the value is not find */
+    text.indexOf("a");
+    /*-1 */
+
+    /*this method searches the string from the end to the beginning */
+    text.lastIndexOf("l",3);
+    /* 3 */
+    
+    /* the property returns the length of a string */
+    text.length;
+    /*5 */ 
+    
+    /* ?? */
+    text.localeCompare(text_2);
+
+    text.match('el');
+    text.matchAll;
+    text.normalize;
+
+    /* method pads a string with another string (multiple times) until it reaches a given length*/
+    text.padEnd(7,'o');
+    /* helloooo */
+
+    /* method pads a string with another string (multiple times) until it reaches a given length*/
+    text_2.padEnd(7,'w');
+   /* wwworld */
+
+   /* method returns a string with a number of copies of a string */
+    text_2.repeat(2);
+    /* hellohello */
+
+    /* method returns a new string with the value(s) replaced */
+    text.replace(/h/g,'hh');
+    /* hhello */
+
+    /*  method returns the index (position) of the first match */
+    text_2.search(/ld/);
+    /*3*/
+
+    /*the method extracts a part of a string and returns the new string*/
+    text_2.slice(0,2);
+    /* wo */
+
+    /* the method splits a string into an array of substrings */
+    text_2.split('l');
+    /* word */
+
+    /* method returns true if a string starts with a specified string */
+    text.startsWith('h');
+    /* true */
+
+    /* the method extracts characters between two (positions) from a string and returns the substring */
+    text.substring(0,3);
+    /* wor */
+    
+    /* the method converts a string to lowercase letters using current locale */
+    text.toLocaleLowerCase;
+    
+    /* the method converts a string to uppercase letters, using current locale */
+    text.toLocaleUpperCase();
+    /* HELLO */
+    
+    /* method converts a string to lowercase letters */
+    text_2.toLowerCase();
+   
+    /*  method returns a string as a string */
+    text_2.toString();
+    /* world */
+
+    /* method converts a string to uppercase letters */
+    text_2.toUpperCase();
+    /* WORLD */
+   
+    /* method removes whitespace from both sides of a string */
+    text.trim(); 
+
+    /* method removes whitespace from the end of a string */
+    text_2.trimEnd();
+
+    /* method removes whitespace from the start of a string */
+    text.trimStart();
+    
+    /* method returns the primitive value of a string */
+    text.valueOf();
+    /* hello */
+    
+
+  </script>
+
+</html>
